@@ -1,0 +1,13 @@
+system_id,system_name,vendor,model_type,business_unit,data_classification,deployment_environment,decision_impact,last_audit_date,risk_tier,model_source,pii_involved,explainability_method,owner_email,regulatory_flags
+AIS-001,Claims Fraud Detection Engine,Internal Data Science,Classification,Claims,Restricted,Production,Automated-High,2024-11-15,1,Internal,True,None,fraud.ops@lincolnfin.example,FCRA
+AIS-002,Underwriting Risk Scorer,Internal Actuarial,Regression,Underwriting,Restricted,Production,Automated-High,2025-02-20,1,Internal,True,SHAP,uw.models@lincolnfin.example,FCRA;SOX
+AIS-003,Customer Churn Predictor,Internal Data Science,Classification,Marketing,Confidential,Production,Advisory,2025-04-10,3,Internal,True,LIME,growth.analytics@lincolnfin.example,None
+AIS-004,Policy Inquiry Chatbot,OpenAI,Generative,Compliance,Confidential,Production,Automated-Low,2025-01-08,2,OpenAI,True,None,cx.platform@lincolnfin.example,None
+AIS-005,Life Insurance Application Triage,distilbert-base-uncased,NLP,Underwriting,Restricted,Production,Automated-High,2024-08-30,1,HuggingFace,True,None,,FCRA;HIPAA
+AIS-006,Marketing Segment Optimizer,Internal Data Science,Classification,Marketing,Internal,Staging,Advisory,2025-05-12,4,Internal,False,SHAP,growth.analytics@lincolnfin.example,None
+AIS-007,Agent Performance Forecaster,Internal Actuarial,Regression,Finance,Confidential,Production,Advisory,2025-03-18,3,Internal,False,LIME,fpa.team@lincolnfin.example,SOX
+AIS-008,Claims Document Classifier,distilbert-base-uncased,NLP,Claims,Confidential,Production,Automated-Low,2025-02-02,2,HuggingFace,True,Proprietary,claims.intake@lincolnfin.example,HIPAA
+AIS-009,Fraud Alert Prioritizer,Internal Data Science,Classification,Claims,Restricted,Production,Automated-High,2023-12-01,1,Internal,True,None,,FCRA
+AIS-010,Customer Sentiment Analyzer,cardiffnlp/twitter-roberta-base-sentiment,NLP,Marketing,Internal,Pilot,Advisory,2025-06-01,4,HuggingFace,False,None,growth.analytics@lincolnfin.example,None
+AIS-011,Retirement Planning Recommender,Internal Actuarial,Regression,Finance,Restricted,Production,Automated-High,2025-01-25,2,Internal,True,Proprietary,retire.products@lincolnfin.example,SOX
+AIS-012,Fair Lending Bias Monitor,Internal Compliance,Classification,Compliance,Confidential,Production,Advisory,2025-05-30,3,Internal,True,SHAP,,FCRA

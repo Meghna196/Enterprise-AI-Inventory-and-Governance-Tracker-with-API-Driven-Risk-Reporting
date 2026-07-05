@@ -1,0 +1,74 @@
+{
+  "report_date": "2026-07-05",
+  "data_source": "Airtable (live)",
+  "total_systems": 12,
+  "risk_distribution": {
+    "Critical": 6,
+    "High": 2,
+    "Medium": 3,
+    "Low": 1
+  },
+  "data_quality_issues": {
+    "owner_email": {
+      "count": 3,
+      "message": "3 record(s) missing this field",
+      "system_ids": [
+        "AIS-005",
+        "AIS-009",
+        "AIS-012"
+      ]
+    },
+    "regulatory_flags": {
+      "count": 4,
+      "message": "4 record(s) missing this field",
+      "system_ids": [
+        "AIS-003",
+        "AIS-004",
+        "AIS-006",
+        "AIS-010"
+      ]
+    }
+  },
+  "top_5_critical_systems": [
+    {
+      "system_id": "AIS-001",
+      "system_name": "Claims Fraud Detection Engine",
+      "composite_risk_score": 100.0,
+      "risk_band": "Critical",
+      "regulatory_flags": "FCRA",
+      "owner_email": "fraud.ops@lincolnfin.example"
+    },
+    {
+      "system_id": "AIS-005",
+      "system_name": "Life Insurance Application Triage",
+      "composite_risk_score": 100.0,
+      "risk_band": "Critical",
+      "regulatory_flags": "FCRA, HIPAA",
+      "owner_email": ""
+    },
+    {
+      "system_id": "AIS-009",
+      "system_name": "Fraud Alert Prioritizer",
+      "composite_risk_score": 100.0,
+      "risk_band": "Critical",
+      "regulatory_flags": "FCRA",
+      "owner_email": ""
+    },
+    {
+      "system_id": "AIS-002",
+      "system_name": "Underwriting Risk Scorer",
+      "composite_risk_score": 92.0,
+      "risk_band": "Critical",
+      "regulatory_flags": "FCRA, SOX",
+      "owner_email": "uw.models@lincolnfin.example"
+    },
+    {
+      "system_id": "AIS-011",
+      "system_name": "Retirement Planning Recommender",
+      "composite_risk_score": 89.5,
+      "risk_band": "Critical",
+      "regulatory_flags": "SOX",
+      "owner_email": "retire.products@lincolnfin.example"
+    }
+  ]
+}
